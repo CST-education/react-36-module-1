@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types'
 import { v4 as zzz } from 'uuid'
+// импорт модульного файла стилей
+import s from './Friends.module.scss'
 
 export function Friends({ friends, children }) {
   console.log(zzz())
@@ -13,6 +15,9 @@ export function Friends({ friends, children }) {
               <li key={friend.id}>
                 <h3>{friend.name}</h3>
                 <p>{friend.age}</p>
+                <button className={s.userBtn} type="button">
+                  click
+                </button>
               </li>
             )
           })}

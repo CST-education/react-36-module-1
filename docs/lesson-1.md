@@ -1,4 +1,5 @@
-# Компоненты и коллекции
+# LESSON 1
+## Компоненты и коллекции
 
 SPA(one html) & MPA (many html)
 Node.js + React + Webpack + Babel
